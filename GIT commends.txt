@@ -13,5 +13,7 @@ git clean - sluzy do usuniecia plikow ktore nigdy nie zostaly dodane do repozozy
 	git clean -n   - zwraca liste plikow ktore moga zostac usuniete
 	git clean -nd  - tutaj pokaze sie kompletna lista - wraz z katalogami 
 	git clean -idf - (i) interaktywnie, (d) katalogi, jezeli chcemy usunac tylko wybrane
-	 
 	
+git reset - usuniecie z przechowywalni (cofniecie plikow ze stage), odwrotnosc polecenia git add   
+	 
+git checkout - usuniecie zmian z plikow bedacych w przechowali
