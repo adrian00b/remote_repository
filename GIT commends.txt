@@ -1,0 +1,10 @@
+git init - stworzenie repozytorium
+
+git status - aktualny status repozytorium
+
+git add - dodanie pliku do przechowalni :
+	git add . - dodanie wszystkich plikow
+	git add nazwapliku - dodanie konkretnego pliku 
+	
+git commit - zapisanie zmian w repozytorium  :
+	git commit -m "Komentarz:  - zapisanie zmian w repozytorium wraz z komentarzem
