@@ -2,9 +2,16 @@ git init - stworzenie repozytorium
 
 git status - aktualny status repozytorium
 
-git add - dodanie pliku do przechowalni :
+git add - dodanie pliku do przechowalni : 
 	git add . - dodanie wszystkich plikow
 	git add nazwapliku - dodanie konkretnego pliku 
 	
 git commit - zapisanie zmian w repozytorium  :
-	git commit -m "Komentarz:  - zapisanie zmian w repozytorium wraz z komentarzem
+	git commit -m "Komentarz:  - zapisanie zmian w repozytorium wraz z komentarzem 
+	
+git clean - sluzy do usuniecia plikow ktore nigdy nie zostaly dodane do repozozytorium (niesledzone pliki i katalogi)
+	git clean -n   - zwraca liste plikow ktore moga zostac usuniete
+	git clean -nd  - tutaj pokaze sie kompletna lista - wraz z katalogami 
+	git clean -idf - (i) interaktywnie, (d) katalogi, jezeli chcemy usunac tylko wybrane
+	 
+	
