@@ -19,5 +19,5 @@ git reset - usuniecie z przechowywalni (cofniecie plikow ze stage), odwrotnosc p
 	 
 git checkout - usuniecie zmian z plikow bedacych w przechowali
 
-git rm nazwapliku - usuniecie pliku z repozytorium (i katalogu roboczego rowniez), roznica miedzy
-	git rm a git clean polega na tym ze uzywajac git rm zmiany da sie odwrocic!! odwrocic checkoutem
+git rm nazwapliku - usuniecie pliku z repozytorium (i katalogu roboczego rowniez),
+ roznica miedzy git rm a git clean polega na tym ze uzywajac git rm zmiany da sie odwrocic!! odwrocic checkoutem
