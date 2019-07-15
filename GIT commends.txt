@@ -32,6 +32,8 @@ git checkout 'log' - przywraca stan z wybranego commita, jednakze otwiera to w s
 	git checkout -b - zapisanie w nowym branchu
 	git checkout master - powrot do glownego brancha (najabrdziej aktualnej wersji spred git checkout 'log')
 	
+git revert - odwrocenie zmian z wybranego commitu i zapisanie ich jako nowy commit, NIE USUWA HISTORII!!
+	
 
 	
 	
