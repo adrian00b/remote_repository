@@ -35,6 +35,11 @@ git checkout 'log' - przywraca stan z wybranego commita, jednakze otwiera to w s
 git revert 'log' - odwrocenie zmian z wybranego commitu i zapisanie ich jako nowy commit, NIE USUWA HISTORII!!
 
 git reset 'log' - przywraca wybrany commit - UWAGA! modyfikuje historie 
+	
+	git reset 'log' --hard - przywraca stan z danego commita usuwajac dokonane po nim zmiany i commity
+		oznacza to ze usuwa wszystkie commity z historii i nie bedzie sie dalo do nich wrocic
+
+
 
 	
 	
