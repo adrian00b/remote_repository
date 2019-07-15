@@ -25,4 +25,12 @@ git rm nazwapliku - usuniecie pliku z repozytorium (i katalogu roboczego rowniez
 git log - pokazuje historie zmian wraz z logami, aby wyjsc z historii zmian klawisz Q
 	git log --oneline - pokazuje historie zmian w skroconej formie zapisu 
 	
+git checkout 'log' - przywraca stan z wybranego commita, jednakze otwiera to w stanie 'HEAD detached', czyli mozna dowolnie
+	wprowadzac zmiany w plikach bez zapisywania tego gdziekolwiek - pozniej mozemy zapisac zmiany w osobnym branchu:
+	
+	git checkout -b - zapisanie w nowym branchu
+	git checkout master - powrot do glownego brancha (najabrdziej aktualnej wersji spred git checkout 'log')
+	
+
+	
 	
