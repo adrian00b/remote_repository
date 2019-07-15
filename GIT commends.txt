@@ -22,6 +22,7 @@ git checkout - usuniecie zmian z plikow bedacych w przechowali
 git rm nazwapliku - usuniecie pliku z repozytorium (i katalogu roboczego rowniez),
  roznica miedzy git rm a git clean polega na tym ze uzywajac git rm zmiany da sie odwrocic!! odwrocic checkoutem
  
-git log - pokazuje historie zmian wraz z logami
+git log - pokazuje historie zmian wraz z logami, aby wyjsc z historii zmian klawisz Q
 	git log --oneline - pokazuje historie zmian w skroconej formie zapisu 
+	
 	
