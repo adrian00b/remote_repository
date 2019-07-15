@@ -38,6 +38,11 @@ git reset 'log' - przywraca wybrany commit - UWAGA! modyfikuje historie
 	
 	git reset 'log' --hard - przywraca stan z danego commita usuwajac dokonane po nim zmiany i commity
 		oznacza to ze usuwa wszystkie commity z historii i nie bedzie sie dalo do nich wrocic
+		
+	git reset 'log' --mixed - usuwa historie commitow ale w katalogu roboczym pozostawia zmiany,
+		ktore mozna dodac add i pozniej scommitowac, albo odrzucic checkout .
+	
+	git reset 'log' --soft - analogicznie jak mixed tylko zmiany sa juz w przechowalni add - wystarczy scommitowac albo odrzucic
 
 
 
