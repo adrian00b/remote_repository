@@ -1,3 +1,1 @@
 temporary files
-
-ten commit zostanie zrevertowany
