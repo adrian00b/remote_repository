@@ -24,6 +24,15 @@ git rm nazwapliku - usuniecie pliku z repozytorium (i katalogu roboczego rowniez
  
 git log - pokazuje historie zmian wraz z logami, aby wyjsc z historii zmian klawisz Q
 	git log --oneline - pokazuje historie zmian w skroconej formie zapisu 
+	--author "" - pokazuje commity stworzonego przez danego autora
+	--grep "" - pokazuje commity zawierajace w komentarzu podana fraze
+	-4 - pokazuje liczbe commitow, w tym przypadku 4
+	- "sciezka" - pokazuje historie danego pliku (podawane na koncu, po parametrach)
+	--patch - pokazuje zmiany dokonane w pliku
+	--stat - pokazuje statystyki zmian
+	-summary - tez pewne podsumowanie zmian
+	
+git shortlog - historia z podzialem na uzytkownikow (uproszczone w oneline od razu)
 	
 git checkout 'log' - przywraca stan z wybranego commita, jednakze otwiera to w stanie 'HEAD detached', czyli mozna dowolnie
 	wprowadzac zmiany w plikach bez zapisywania tego gdziekolwiek - pozniej mozemy zapisac zmiany w osobnym branchu:
@@ -45,6 +54,6 @@ git reset 'log' - przywraca wybrany commit - UWAGA! modyfikuje historie
 	git reset 'log' --soft - analogicznie jak mixed tylko zmiany sa juz w przechowalni add - wystarczy scommitowac albo odrzucic
 
 
-
+-- help  - dopisane do jakiegokolwiek polecenia otwiera nam dokumentacje dotyczaca jego parametrow etc
 	
 	
