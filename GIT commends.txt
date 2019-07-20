@@ -40,6 +40,7 @@ git checkout 'log' - przywraca stan z wybranego commita, jednakze otwiera to w s
 	git checkout 'log' 'file' - przywraca stan wybranego pliku 'file' z danego commita
 	git checkout -b - zapisanie w nowym branchu
 	git checkout master - powrot do glownego brancha (najabrdziej aktualnej wersji spred git checkout 'log')
+	git checkout 'branch_name' - przelaczenie sie na wybrany branch
 	
 git revert 'log' - odwrocenie zmian z wybranego commitu i zapisanie ich jako nowy commit, NIE USUWA HISTORII!!
 
