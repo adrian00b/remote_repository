@@ -73,7 +73,8 @@ git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem c
 	git stash pop - po wykonaniu git stash mozemy przelaczyc sie na inny branch i tam zaladowac zmiany dokonane
 		na wczesniejszym branchy ale nie scommitowane - w ten sposob wczytamy tamte zmiany, mimo iz w branchu 
 		np. dev tego nie ma 
-		
+	
+	git stash list - lsita zmian na stosie
 	
 
 
