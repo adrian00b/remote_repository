@@ -65,4 +65,6 @@ git branch 'name' - utworzenie nowego brancha
 git merge 'name' - laczenie zmian z dwoch branchy, musimy byc na branchu ktory jest bardziej pdostawowy 
 	np. jezeli na branch master chcemy dodac zmiany z brancha dev to musimy przelaczyc sie na branch master
 	poleceniem git checkout master i tam dokonac zmergowania	
-		
+
+
+stash test
