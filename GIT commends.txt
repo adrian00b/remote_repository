@@ -55,5 +55,8 @@ git reset 'log' - przywraca wybrany commit - UWAGA! modyfikuje historie
 
 
 -- help  - dopisane do jakiegokolwiek polecenia otwiera nam dokumentacje dotyczaca jego parametrow etc
-	
+
+git branch 'name' - utworzenie nowego brancha
+	git branch  - pokazuje wszystkie istniejace branche
+
 	
