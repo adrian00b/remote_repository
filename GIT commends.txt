@@ -66,5 +66,7 @@ git merge 'name' - laczenie zmian z dwoch branchy, musimy byc na branchu ktory j
 	np. jezeli na branch master chcemy dodac zmiany z brancha dev to musimy przelaczyc sie na branch master
 	poleceniem git checkout master i tam dokonac zmergowania	
 
+git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem chciec sie przelaczyc na inny branch
+	sytuacja taka moze spowodowac, ze zmiany zostana nadpisane przy przelaczaniu i znikna bo nie dalismy commita
+	w tej sytuacji mozemy uzyc polecenia git stash, ktory dodaje zmiany na stos, do poczekalni, na pozniej 
 
-stash test
