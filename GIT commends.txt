@@ -31,6 +31,7 @@ git log - pokazuje historie zmian wraz z logami, aby wyjsc z historii zmian klaw
 	--patch - pokazuje zmiany dokonane w pliku
 	--stat - pokazuje statystyki zmian
 	-summary - tez pewne podsumowanie zmian
+	--graph - pokazuje zmiany razem z roznymi branchami (pokazuje rozgalezienia)
 	
 git shortlog - historia z podzialem na uzytkownikow (uproszczone w oneline od razu)
 	
@@ -59,4 +60,9 @@ git reset 'log' - przywraca wybrany commit - UWAGA! modyfikuje historie
 
 git branch 'name' - utworzenie nowego brancha
 	git branch  - pokazuje wszystkie istniejace branche
+	git branch -D 'name' - usuniecie nieptorzebnego branchu
 
+git merge 'name' - laczenie zmian z dwoch branchy, musimy byc na branchu ktory jest bardziej pdostawowy 
+	np. jezeli na branch master chcemy dodac zmiany z brancha dev to musimy przelaczyc sie na branch master
+	poleceniem git checkout master i tam dokonac zmergowania	
+		
