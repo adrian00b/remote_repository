@@ -85,5 +85,10 @@ git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem c
 	
 	git stash branch 'name' - zmiany ze stasha moga zostac przeniesione od razu na brancha
 	
+REMOTE REPOSITORY
 
+git remote add origin 'adres zrodla' - dodanie zdalnego repozytorium o nazwie origin 
+
+git push -u origin master - pierwsze przeslanie zmian z lokalnego repo do zdalnego, kolejne moga byc przesylane
+	samym poeceniem git push 
 
