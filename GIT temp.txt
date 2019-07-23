@@ -1,3 +1,4 @@
 temporary files
 
 change in the remote repository
+change number 2 in the remote repository - try git fetch
