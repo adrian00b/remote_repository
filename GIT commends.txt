@@ -92,3 +92,8 @@ git remote add origin 'adres zrodla' - dodanie zdalnego repozytorium o nazwie or
 git push -u origin master - pierwsze przeslanie zmian z lokalnego repo do zdalnego, kolejne moga byc przesylane
 	samym poeceniem git push 
 
+git pull - pobiera pliki ze zdalnego repozytorium
+
+git fetch - pobiera same zmiany, nie pliki, nie dokonuje jeszcze zmian, po tym poleceniu mozemy zrobic kolejne polecenie:
+
+git merge origin/master - to nam uaktualni lokalne repo 
