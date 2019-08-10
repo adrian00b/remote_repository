@@ -2,3 +2,4 @@ temporary files
 
 i change this line on master - conflict creator
 change number 2 in the remote repository - try git fetch
+ 
