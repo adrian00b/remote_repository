@@ -85,6 +85,11 @@ git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem c
 	
 	git stash branch 'name' - zmiany ze stasha moga zostac przeniesione od razu na brancha
 	
+	
+git rebase - ulatiwa zapis historii, branch w logach staje sie jakby kontynuacja branchu master, a nie oddzielna
+	galezia
+	
+	
 REMOTE REPOSITORY
 
 git remote add origin 'adres zrodla' - dodanie zdalnego repozytorium o nazwie origin 
