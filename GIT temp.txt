@@ -1,8 +1,7 @@
 temporary files
 
 change in master branch (number 2 - with conflicts)
-- simultaneous change on feature branch (create conflict while rebase)
-
+- simultaneous change on feature branch (create conflict while rebase) change number 2
 
 i change this line on master - conflict creator
 change number 2 in the remote repository - try git fetch
