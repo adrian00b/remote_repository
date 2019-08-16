@@ -1,3 +1,18 @@
+USTAWIENIA:
+git config
+	--list - pokazuje liste roznych ustawien gita
+	--global user.name "asd" - globalnie ustawia uzytkownika, bez uzycia opcji global nazwa bedzie przypisana
+	do danego projektu
+	-- config user.name - pokazuje user.name
+	
+	oczywiscie user.name jest dla przykladu, mozna znalezc wiele innych wartosci, np. user.email etc 
+
+POMOC:
+git help 'komenda' - pokazuje pomoc
+
+
+
+
 git init - stworzenie repozytorium
 
 git status - aktualny status repozytorium
