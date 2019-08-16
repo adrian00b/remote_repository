@@ -10,10 +10,10 @@ git config
 POMOC:
 git help 'komenda' - pokazuje pomoc
 
-
-
-
+TWORZENIE REPOZYTORIUM:
 git init - stworzenie repozytorium
+git clone 'adres' - sklonowanie calego repo z jakiegos zrodla (github) 
+git clone 'adres' nazwa - mozna dopisac nazwe foledru w jakim ma to byc zapisane
 
 git status - aktualny status repozytorium
 
