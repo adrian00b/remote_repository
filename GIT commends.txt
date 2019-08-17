@@ -30,7 +30,10 @@ git add - dodanie pliku do przechowalni :
 	
 git commit - zapisanie zmian w repozytorium  :
 	git commit -m "Komentarz:  - zapisanie zmian w repozytorium wraz z komentarzem 
-	
+
+git diff - pokazuje roznice dla plikow ktore nie sa jeszcze w poczekalni
+git difftool - pokazuje roznice w zewnetrznym narzedziu
+
 git clean - sluzy do usuniecia plikow ktore nigdy nie zostaly dodane do repozozytorium (niesledzone pliki i katalogi), 
 	UWAGA! zmiany nie da sie odwrocic
 	git clean -n   - zwraca liste plikow ktore moga zostac usuniete
