@@ -29,7 +29,9 @@ git add - dodanie pliku do przechowalni :
 	git add nazwapliku - dodanie konkretnego pliku 
 	
 git commit - zapisanie zmian w repozytorium  :
-	git commit -m "Komentarz:  - zapisanie zmian w repozytorium wraz z komentarzem 
+	git commit -m "Komentarz:  - zapisanie zmian w repozytorium wraz z komentarzem
+	-a - commituje kazdy zmieniony plik bez koniecznosci dodawania go do poczekalni
+		za pomoca git add  
 
 git diff - pokazuje roznice dla plikow ktore nie sa jeszcze w poczekalni
 git difftool - pokazuje roznice w zewnetrznym narzedziu
