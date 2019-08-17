@@ -36,6 +36,10 @@ git commit - zapisanie zmian w repozytorium  :
 git diff - pokazuje roznice dla plikow ktore nie sa jeszcze w poczekalni
 git difftool - pokazuje roznice w zewnetrznym narzedziu
 
+git mv 'dir1' 'dir2' - zmiana nazwy pliku albo directory z 1 na 2
+	uwaga! jaka jest roznica miedzy ta operacja a standardowym linuxowym mv? tutaj git wie ze jest to rename i wystaczy dac commita
+	w przypadku konsolowego mv, trzeba zrobic add->commit, ale git widzi to jako usuniecie pliku o starej nazwie i dodanie nowego (a nie sama zmiana nazwy)
+
 git clean - sluzy do usuniecia plikow ktore nigdy nie zostaly dodane do repozozytorium (niesledzone pliki i katalogi), 
 	UWAGA! zmiany nie da sie odwrocic
 	git clean -n   - zwraca liste plikow ktore moga zostac usuniete
