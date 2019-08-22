@@ -139,6 +139,12 @@ REMOTE REPOSITORY
 
 git remote add origin 'adres zrodla' - dodanie zdalnego repozytorium o nazwie origin 
 
+git remote - pokazuje liste repozytoriow (skroocne nazwy)
+	-v - pokazuje adresy 
+	git remote show 'nazwa' - pokazuje informacje o zdalnym repo
+	git remote rename 'old_name' 'new_name' - zmiana nazwy zdalnego repo
+	git remote rm 'name' - usuniecie zdalnego repo 
+
 git push -u origin master - pierwsze przeslanie zmian z lokalnego repo do zdalnego, kolejne moga byc przesylane
 	samym poeceniem git push 
 
