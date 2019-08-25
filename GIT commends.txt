@@ -153,3 +153,10 @@ git pull - pobiera pliki ze zdalnego repozytorium
 git fetch - pobiera same zmiany, nie pliki, nie dokonuje jeszcze zmian, po tym poleceniu mozemy zrobic kolejne polecenie:
 
 git merge origin/master - to nam uaktualni lokalne repo 
+
+
+TAGOWANIE
+git tag - sprwadzenie lsity tagów
+	-l 'text' , mozna uzywac wildcard np. 'v1.*' - wyszukiwanie konkretnych tagów
+
+git tag -a 'text' -m 'comment' - dodawanie tagu w formie opisanej
