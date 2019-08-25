@@ -10,6 +10,8 @@ git config
 POMOC:
 git help 'komenda' - pokazuje pomoc
 
+git show 'nazwa' - pokazuje rozne informacj,e o commitach, tagach
+
 TWORZENIE REPOZYTORIUM:
 git init - stworzenie repozytorium
 git clone 'adres' - sklonowanie calego repo z jakiegos zrodla (github) 
@@ -156,7 +158,22 @@ git merge origin/master - to nam uaktualni lokalne repo
 
 
 TAGOWANIE
-git tag - sprwadzenie lsity tagów
+git tag - sprawdzenie listy tagów
 	-l 'text' , mozna uzywac wildcard np. 'v1.*' - wyszukiwanie konkretnych tagów
 
-git tag -a 'text' -m 'comment' - dodawanie tagu w formie opisanej
+git tag -a 'tag' -m 'comment' - dodawanie tagu w formie opisanej
+
+git tag 'tag' - etykieta lekka, brak informacji o autorze, brak tytulu itd
+
+git tag -a 'tag' log - mozna dodawac tagi historycznie, podajac danego commita po nazwie taga
+
+git push 'tag' - przesyla dany tag do remote repo
+git push --tags - przesyla wszystkie tagi do remote repo
+
+git checkout -b 'branch' 'tag' - generalnie nie mozemy przelaczyc sie bezposrednio do danego tagu,
+ale mozemy stworzyc branch ktory odpowiada danemu tagowi
+
+
+
+
+
