@@ -1,4 +1,4 @@
-USTAWIENIA:
+﻿USTAWIENIA:
 git config
 	--list - pokazuje liste roznych ustawien gita
 	--global user.name "asd" - globalnie ustawia uzytkownika, bez uzycia opcji global nazwa bedzie przypisana
@@ -6,6 +6,15 @@ git config
 	-- config user.name - pokazuje user.name
 	
 	oczywiscie user.name jest dla przykladu, mozna znalezc wiele innych wartosci, np. user.email etc 
+
+
+ALIASY
+mozemy tworzyc aliasy dla czesto uzywanych formul
+
+git config --global alias.'name' 'formula'
+np. 	git config --global alias.co checkout
+	git config --global alias.last 'log -1 HEAD'
+
 
 POMOC:
 git help 'komenda' - pokazuje pomoc
