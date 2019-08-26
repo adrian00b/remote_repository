@@ -95,6 +95,7 @@ git checkout 'log' - przywraca stan z wybranego commita, jednakze otwiera to w s
 	wprowadzac zmiany w plikach bez zapisywania tego gdziekolwiek - pozniej mozemy zapisac zmiany w osobnym branchu:
 	
 	git checkout 'log' 'file' - przywraca stan wybranego pliku 'file' z danego commita
+	git checkout 'file' - usuwa zmiany dokonane w working directory ktore sa unstaged
 	git checkout -b - zapisanie w nowym branchu
 	git checkout master - powrot do glownego brancha (najabrdziej aktualnej wersji spred git checkout 'log')
 	git checkout 'branch_name' - przelaczenie sie na wybrany branch
