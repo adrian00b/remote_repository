@@ -2,4 +2,4 @@ temporary files
 
 fotgotten change
 
-generating conflict - master
+generating conflict 
