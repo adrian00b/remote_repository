@@ -25,6 +25,7 @@ TWORZENIE REPOZYTORIUM:
 git init - stworzenie repozytorium
 git clone 'adres' - sklonowanie calego repo z jakiegos zrodla (github) 
 git clone 'adres' nazwa - mozna dopisac nazwe foledru w jakim ma to byc zapisane
+git clone -o 'remote branch name' - domyslna nazwa zdalnego sklonownego repo to origin, ale mozemy ja dowolnie zmieniac
 
 DODAWANIE ZMIAN:
 
@@ -166,14 +167,18 @@ git remote - pokazuje liste repozytoriow (skroocne nazwy)
 	git remote rename 'old_name' 'new_name' - zmiana nazwy zdalnego repo
 	git remote rm 'name' - usuniecie zdalnego repo 
 
-git push -u origin master - pierwsze przeslanie zmian z lokalnego repo do zdalnego, kolejne moga byc przesylane
-	samym poeceniem git push 
+git push -u (origin) (master) - pierwsze przeslanie zmian z lokalnego repo do zdalnego, kolejne moga byc przesylane
+	samym poeceniem git push, wartosci w nawiasach sa opcjonalne, chcac spushowac jakis branch musimy dodac jego nazwe w miejscu domyslnego master
+git push origin branch1:remote_branch - wczesniejsze polecenie towrzylo na zdalnym repo brancha o nazwie tej samej co na lokalnym,
+to pozwala spushowac brancha na mastera i nadac mu inna nazwe
 
 git pull - pobiera pliki ze zdalnego repozytorium
 
 git fetch - pobiera same zmiany, nie pliki, nie dokonuje jeszcze zmian, po tym poleceniu mozemy zrobic kolejne polecenie:
 
 git merge origin/master - to nam uaktualni lokalne repo 
+
+git checkout -b branch origin/branch - jezeli uzyjemy polecenia git fetch i chcemy miec nie tylko danego brancha, ale tez mozliwosc jego modyfikowania itd, to mozna uzyc checkout z flaga -b
 
 
 TAGOWANIE
