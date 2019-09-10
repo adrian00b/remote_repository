@@ -170,7 +170,9 @@ git remote - pokazuje liste repozytoriow (skroocne nazwy)
 git push -u (origin) (master) - pierwsze przeslanie zmian z lokalnego repo do zdalnego, kolejne moga byc przesylane
 	samym poeceniem git push, wartosci w nawiasach sa opcjonalne, chcac spushowac jakis branch musimy dodac jego nazwe w miejscu domyslnego master
 git push origin branch1:remote_branch - wczesniejsze polecenie towrzylo na zdalnym repo brancha o nazwie tej samej co na lokalnym,
-to pozwala spushowac brancha na mastera i nadac mu inna nazwe
+	to pozwala spushowac brancha na mastera i nadac mu inna nazwe
+
+git push origin --delete branch  - pozwala z poziomu lokalnego repo skasowac brancha na remote repo
 
 git pull - pobiera pliki ze zdalnego repozytorium
 
