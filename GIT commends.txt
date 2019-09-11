@@ -124,6 +124,9 @@ git branch 'name' - utworzenie nowego brancha
 	git branch -v - wyswietla branche i ich ostatnie commity
 	--merged - wyswietla galezie scalone z aktywna galezia (na ktorej jest HEAD)
 	--no-merged - wyswietla jeszcze nie scalone galezie
+	-vv -pokazuje branche wraz z branchami z remote repo na ktore ustawiony jest checking (z ktorymi sa powiazane)
+
+git branch -u origin/remote_branch - ustawia tracking do istniejacego brancha z remote repo
 
 git checkout -b - stworzenie nowego brancha i przelaczenie sie na niego automatyczne 
 
@@ -169,8 +172,13 @@ git remote - pokazuje liste repozytoriow (skroocne nazwy)
 
 git push -u (origin) (master) - pierwsze przeslanie zmian z lokalnego repo do zdalnego, kolejne moga byc przesylane
 	samym poeceniem git push, wartosci w nawiasach sa opcjonalne, chcac spushowac jakis branch musimy dodac jego nazwe w miejscu domyslnego master
+	dzieki temu poleceniu automatycznie ustawia sie rowniez tracking (powiazanie lokalnego brancha z branchem na remote repo)
 git push origin branch1:remote_branch - wczesniejsze polecenie towrzylo na zdalnym repo brancha o nazwie tej samej co na lokalnym,
 	to pozwala spushowac brancha na mastera i nadac mu inna nazwe
+
+git branch -u (origin/remote_branch) - ustawia tracking do istniejacego brancha z remote repo
+
+git branch -vv -pokazuje branche wraz z branchami z remote repo na ktore ustawiony jest checking (z ktorymi sa powiazane)
 
 git push origin --delete branch  - pozwala z poziomu lokalnego repo skasowac brancha na remote repo
 
