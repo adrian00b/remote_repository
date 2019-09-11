@@ -185,6 +185,7 @@ git push origin --delete branch  - pozwala z poziomu lokalnego repo skasowac bra
 git pull - pobiera pliki ze zdalnego repozytorium
 
 git fetch - pobiera same zmiany, nie pliki, nie dokonuje jeszcze zmian, po tym poleceniu mozemy zrobic kolejne polecenie:
+	--all - fetch all remotes
 
 git merge origin/master - to nam uaktualni lokalne repo 
 
