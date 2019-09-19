@@ -5,3 +5,6 @@ fotgotten change
 generating conflict 
 
 commit no 1 branch master
+commit no 1 - server branch
+commit no 1 (created from coomit no 1 on server branch) - server client
+Commit no 1 on branch client
