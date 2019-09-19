@@ -158,7 +158,9 @@ git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem c
 	
 git rebase - ulatiwa zapis historii, branch w logach staje sie jakby kontynuacja branchu master, a nie oddzielna
 	galezia
-	
+
+git rebase --onto master branch1 branch2 - w przypadku gdy mamy podwojne rozgalezienie, tzn branch 2 powstal z brancha 1 i chcemy dac na mastera tylko zmiany z brancha 2,
+w ten sposob omijamy commity z brancha 1 (pozniej git checkout master, git merge branch2)
 	
 REMOTE REPOSITORY
 
