@@ -23,7 +23,8 @@ git show 'nazwa' - pokazuje rozne informacj,e o commitach, tagach
 
 TWORZENIE REPOZYTORIUM:
 git init - stworzenie repozytorium
-git clone 'adres' - sklonowanie calego repo z jakiegos zrodla (github) 
+git clone 'adres' - sklonowanie calego repo z jakiegos zrodla (github),
+	UWAGA! mozna podac sciezke (sklonujemy lokalne repo)
 git clone 'adres' nazwa - mozna dopisac nazwe foledru w jakim ma to byc zapisane
 git clone -o 'remote branch name' - domyslna nazwa zdalnego sklonownego repo to origin, ale mozemy ja dowolnie zmieniac
 
