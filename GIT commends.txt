@@ -128,6 +128,9 @@ git branch 'name' - utworzenie nowego brancha
 	--no-merged - wyswietla jeszcze nie scalone galezie
 	-vv -pokazuje branche wraz z branchami z remote repo na ktore ustawiony jest checking (z ktorymi sa powiazane)
 
+git branch 'new_branch_nam' 'base_branch' - mozna utworzyc branch na podstawie istniejacego
+(mozna uzyskac to samo robiac git checkout -b 'new_branch_nam' 'base_branch')
+
 git branch -u origin/remote_branch - ustawia tracking do istniejacego brancha z remote repo
 
 git checkout -b - stworzenie nowego brancha i przelaczenie sie na niego automatyczne 
