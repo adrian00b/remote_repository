@@ -45,6 +45,7 @@ git commit - zapisanie zmian w repozytorium  :
 	git commit -m "Komentarz:  - zapisanie zmian w repozytorium wraz z komentarzem
 	-a - commituje kazdy zmieniony plik bez koniecznosci dodawania go do poczekalni
 		za pomoca git add  
+UWAGA! w tym przypadku sprawdzilem ze mozna zrobic -am i zadziala jak -a -m, pytanie czy tak zawsze mozna laczyc flagi?
 
 git diff - pokazuje roznice dla plikow ktore nie sa jeszcze w poczekalni
 git difftool - pokazuje roznice w zewnetrznym narzedziu
