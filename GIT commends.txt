@@ -166,7 +166,10 @@ git rebase - ulatiwa zapis historii, branch w logach staje sie jakby kontynuacja
 
 git rebase --onto master branch1 branch2 - w przypadku gdy mamy podwojne rozgalezienie, tzn branch 2 powstal z brancha 1 i chcemy dac na mastera tylko zmiany z brancha 2,
 w ten sposob omijamy commity z brancha 1 (pozniej git checkout master, git merge branch2)
-	
+
+git cherry-pick 'log' - pozwala wybrany commit przeniesc do innego brancha, przykladowo chcemy w branchu dev1 commit z brancha dev2 COMMIT1
+wtedy git checkout dev1 -> git cherry-pick COMMIT1
+
 REMOTE REPOSITORY
 
 git remote add origin 'adres zrodla' - dodanie zdalnego repozytorium o nazwie origin 
