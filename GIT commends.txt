@@ -154,6 +154,8 @@ git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem c
 	git stash push -m " ..." - zapisanie zmian na stos wraz z komentarzem 
 	
 	git stash list - lsita zmian na stosie
+
+	git stash apply '{x}@stash' - wczytanie zmian z danego stosu
 	
 	git stash clear - czysci caly stos bez wczytywania zmian
 	
