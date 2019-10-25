@@ -159,7 +159,7 @@ git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem c
 	
 	git stash clear - czysci caly stos bez wczytywania zmian
 	
-	git drop "id stash' - usuniecie wybranego wpisu ze stashu
+	git stash drop "id stash' - usuniecie wybranego wpisu ze stashu
 	
 	git stash branch 'name' - zmiany ze stasha moga zostac przeniesione od razu na brancha
 	
