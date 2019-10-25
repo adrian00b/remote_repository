@@ -115,6 +115,7 @@ git reset 'log' - przywraca wybrany commit - UWAGA! modyfikuje historie
 	
 	git reset 'log' --soft - analogicznie jak mixed tylko zmiany sa juz w przechowalni add - wystarczy scommitowac albo odrzucic
 
+git reset --hard HEAD - przywrocenie repo do stanu z ostatniego commita
 
 -- help  - dopisane do jakiegokolwiek polecenia otwiera nam dokumentacje dotyczaca jego parametrow etc
 
@@ -138,6 +139,10 @@ git checkout -b - stworzenie nowego brancha i przelaczenie sie na niego automaty
 git merge 'name' - laczenie zmian z dwoch branchy, musimy byc na branchu ktory jest bardziej pdostawowy 
 	np. jezeli na branch master chcemy dodac zmiany z brancha dev to musimy przelaczyc sie na branch master
 	poleceniem git checkout master i tam dokonac zmergowania
+
+git merge --abort - przerwanie procesu mergowania
+	czasami proces laczenia moze nie przejsc automatycznie pomyslnie,
+	dzieje się tak gdy wystepuja konflikty, mozemy je naprawic recznie, ale jezeli chcemy zrezygnowac z merga to mozemy uzyc flagi --abort
 
 git mergetool - otwiera narzędzie do mergowanie (widać różnice etc), np. vim	
 
