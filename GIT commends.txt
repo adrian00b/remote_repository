@@ -145,6 +145,7 @@ git mergetool - otwiera narzędzie do mergowanie (widać różnice etc), np. vim
 git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem chciec sie przelaczyc na inny branch
 	sytuacja taka moze spowodowac, ze zmiany zostana nadpisane przy przelaczaniu i znikna bo nie dalismy commita
 	w tej sytuacji mozemy uzyc polecenia git stash, ktory dodaje zmiany na stos, do poczekalni, na pozniej 
+	stosowane glownie w sytuacji gdy zostawiamy dokonczenie zadania na pozniej i nie chcemy go commitowac (tak to dajemy na stos, pozniej do niego wracamy, dokanczamy i commit)
 	
 	git stash pop - po wykonaniu git stash mozemy przelaczyc sie na inny branch i tam zaladowac zmiany dokonane
 		na wczesniejszym branchy ale nie scommitowane - w ten sposob wczytamy tamte zmiany, mimo iz w branchu 
