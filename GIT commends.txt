@@ -115,6 +115,7 @@ git reset 'log' - przywraca wybrany commit - UWAGA! modyfikuje historie
 	
 	git reset 'log' --soft - analogicznie jak mixed tylko zmiany sa juz w przechowalni add - wystarczy scommitowac albo odrzucic
 
+git reset --hard HEAD - przywrocenie repo do stanu z ostatniego commita
 
 -- help  - dopisane do jakiegokolwiek polecenia otwiera nam dokumentacje dotyczaca jego parametrow etc
 
@@ -139,12 +140,17 @@ git merge 'name' - laczenie zmian z dwoch branchy, musimy byc na branchu ktory j
 	np. jezeli na branch master chcemy dodac zmiany z brancha dev to musimy przelaczyc sie na branch master
 	poleceniem git checkout master i tam dokonac zmergowania
 
+git merge --abort - przerwanie procesu mergowania
+	czasami proces laczenia moze nie przejsc automatycznie pomyslnie,
+	dzieje się tak gdy wystepuja konflikty, mozemy je naprawic recznie, ale jezeli chcemy zrezygnowac z merga to mozemy uzyc flagi --abort
+
 git mergetool - otwiera narzędzie do mergowanie (widać różnice etc), np. vim	
 
 
 git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem chciec sie przelaczyc na inny branch
 	sytuacja taka moze spowodowac, ze zmiany zostana nadpisane przy przelaczaniu i znikna bo nie dalismy commita
 	w tej sytuacji mozemy uzyc polecenia git stash, ktory dodaje zmiany na stos, do poczekalni, na pozniej 
+	stosowane glownie w sytuacji gdy zostawiamy dokonczenie zadania na pozniej i nie chcemy go commitowac (tak to dajemy na stos, pozniej do niego wracamy, dokanczamy i commit)
 	
 	git stash pop - po wykonaniu git stash mozemy przelaczyc sie na inny branch i tam zaladowac zmiany dokonane
 		na wczesniejszym branchy ale nie scommitowane - w ten sposob wczytamy tamte zmiany, mimo iz w branchu 
@@ -153,10 +159,12 @@ git stash - UWAGA! jezeli dzialamy na roznych branchach, mozemy przed commitem c
 	git stash push -m " ..." - zapisanie zmian na stos wraz z komentarzem 
 	
 	git stash list - lsita zmian na stosie
+
+	git stash apply '{x}@stash' - wczytanie zmian z danego stosu
 	
 	git stash clear - czysci caly stos bez wczytywania zmian
 	
-	git drop "id stash' - usuniecie wybranego wpisu ze stashu
+	git stash drop "id stash' - usuniecie wybranego wpisu ze stashu
 	
 	git stash branch 'name' - zmiany ze stasha moga zostac przeniesione od razu na brancha
 	
