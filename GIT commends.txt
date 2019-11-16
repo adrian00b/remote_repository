@@ -61,6 +61,8 @@ git commit --amend  - pozwala na uaktualnienie ostatniego commita, np. zmiane co
 
 git rebase -i HEAD~3 - amend pozwala na modyfikacje ostatniego commita, jego nazwy badz zawartosci, przy wykorzystaniu amend wplywamy na ostatni commit, tutaj mozemy na dawniejsze, w tym przypadku wyswietla nam sie ostatnie 3
 	domyslnie ustawione jest pick przy kazdym, mozemy to zmienic, np. na edit - ktory zachowuje commit ale pozwala zmienic jego nazwe - sa rowniez inne funkcje (mozna tez usuwac etc)
+	- mozemy tez recznie usunac po prostu commity i zostawic te ktore nam tam pasuja (usuwamy wpisy z innymi commitami, zostawiamy np. tylko ostatni)
+	-squash - ale zamiast usuwac commity lepiej zastosowac squash, np commit zmiana nr 1, 2, 3 - bierzemy pick-1, squash-2, squash-3 - i z tych 3ech commitow tworzymy jeden
 
 git clean - sluzy do usuniecia plikow ktore nigdy nie zostaly dodane do repozozytorium (niesledzone pliki i katalogi), 
 	UWAGA! zmiany nie da sie odwrocic
