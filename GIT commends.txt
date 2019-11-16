@@ -59,6 +59,9 @@ COFANIE ZMIAN:
 git commit --amend  - pozwala na uaktualnienie ostatniego commita, np. zmiane commit message 
 	jezeli zapomnielismy o pewnej zmiane ktora powinna byc w poprzednim commicie, to dokonujemy zmiany, uzywamy git add, i po uzyciu git commit--amend na miejscu tamtego commita powstaje nowy ktory ma ta zmiane - mamy rowniez mozliwosc ponownego stworzenia message
 
+git rebase -i HEAD~3 - amend pozwala na modyfikacje ostatniego commita, jego nazwy badz zawartosci, przy wykorzystaniu amend wplywamy na ostatni commit, tutaj mozemy na dawniejsze, w tym przypadku wyswietla nam sie ostatnie 3
+	domyslnie ustawione jest pick przy kazdym, mozemy to zmienic, np. na edit - ktory zachowuje commit ale pozwala zmienic jego nazwe - sa rowniez inne funkcje (mozna tez usuwac etc)
+
 git clean - sluzy do usuniecia plikow ktore nigdy nie zostaly dodane do repozozytorium (niesledzone pliki i katalogi), 
 	UWAGA! zmiany nie da sie odwrocic
 	git clean -n   - zwraca liste plikow ktore moga zostac usuniete
